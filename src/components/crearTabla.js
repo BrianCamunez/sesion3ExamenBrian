@@ -28,16 +28,3 @@ export function pintarTabla() {
     `;
   return $tabla;
 }
-
-function nuevoDato() {
-  partidas.push({
-    avatar: "🦄",
-    nick: "psuh",
-    puntos: 1000,
-    fecha: "2024-11-09",
-  });
-  console.log(partidas);
-  pintarTabla();
-}
-
-nuevoDato();
